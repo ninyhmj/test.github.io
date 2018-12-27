@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 1300px;
+    height: 600px;
+    background-color: #fff;
+}
+
+.center {
+    width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    background-image: url(../images/banana.png);
+    background-position: -10000px, -10000px;
+    background-repeat: no-repeat;
+}
+
+.center h1 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.center p {
+    padding-top: 50px;
+    text-align: center;
+    color: #ccc;
+    font-size: 12px;
+}
+
+.center p a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.center p a:hover {
+    color: #222;
+}
+
+.center img {
+    cursor: pointer;
+}
